@@ -69,7 +69,7 @@ help message in the module docstrings.
 Installation
 ===============================================================================
 
-Use `pip <http://pip-installer.org>`_ or easy_install:
+Use `pip <http://pip-installer.org>`_ or easy_install::
 
     pip install docopt==0.6.0
 
@@ -140,7 +140,7 @@ API
 The **return** value is a simple dictionary with options, arguments and
 commands as keys, spelled exactly like in your help message.
 Long versions of options are given priority. For example, if you invoke
-the top example as:
+the top example as::
 
     naval_fate.py ship Guardian move 100 150 --speed=15
 
@@ -162,11 +162,11 @@ Help message format
 
 Help message consists of 2 parts:
 
-- Usage pattern, e.g.:
+- Usage pattern, e.g.::
 
     Usage: my_program.py [-hso FILE] [--quiet | --verbose] [INPUT ...]
 
-- Option descriptions, e.g.:
+- Option descriptions, e.g.::
 
     -h --help    show this
     -s --sorted  sorted output
@@ -248,7 +248,7 @@ Use the following constructs to specify patterns:
   ``stdin`` is used instead of a file. To support this add "``[-]``" to
   you usage patterns. "``-``" act as a normal command.
 
-If your pattern allows to match argument-less option (a flag) several times:
+If your pattern allows to match argument-less option (a flag) several times::
 
     Usage: my_program.py [-v | -vv | -vvv]
 
@@ -258,7 +258,7 @@ commands.
 
 If your usage patterns allows to match same-named option with argument
 or positional argument several times, the matched arguments will be
-collected into a list:
+collected into a list::
 
     Usage: my_program.py <file> <file> --path=<path>...
 
@@ -282,7 +282,7 @@ It is necessary to list option descriptions in order to specify:
 The rules are as follows:
 
 - Every line in ``doc`` that starts with ``-`` or ``--`` (not counting spaces)
-  is treated as an option description, e.g.:
+  is treated as an option description, e.g.::
 
     Options:
       --verbose   # GOOD
@@ -293,12 +293,12 @@ The rules are as follows:
   argument after space (or equals "``=``" sign) as shown below. Follow
   either <angular-brackets> or UPPER-CASE convention for options' arguments.
   You can use comma if you want to separate options. In the example below, both
-  lines are valid, however you are recommended to stick to a single style. :
+  lines are valid, however you are recommended to stick to a single style.::
 
     -o FILE --output=FILE       # without comma, with "=" sign
     -i <file>, --input <file>   # with comma, wihtout "=" sing
 
-- Use two spaces to separate options with their informal description.
+- Use two spaces to separate options with their informal description::
 
     --verbose More text.   # BAD, will be treated as if verbose option had
                            # an argument "More", so use 2 spaces instead
@@ -307,7 +307,7 @@ The rules are as follows:
     --stdout  Use stdout.  # GOOD, 2 spaces
 
 - If you want to set a default value for an option with an argument, put it
-  into the option-description, in form ``[default: <my-default-value>]``.
+  into the option-description, in form ``[default: <my-default-value>]``::
 
     --coefficient=K  The K coefficient [default: 2.95]
     --output=FILE    Output file [default: test.txt]
@@ -381,7 +381,7 @@ Changelog
 
 **docopt** follows `semantic versioning <http://semver.org>`_.  The first
 release with stable API will be 1.0.0 (soon).  Until then, you are encouraged
-to specify explicitly the version in your dependency tools, e.g.:
+to specify explicitly the version in your dependency tools, e.g.::
 
     pip install docopt==0.6.0
 
