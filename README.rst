@@ -240,7 +240,7 @@ Use the following constructs to specify patterns:
 - **[options]** (case sensitive) shortcut for any options.
   You can use it if you want to specify that the usage
   pattern could be provided with any options defined below in the
- option-descriptions and do not want to enumerate them all in usage-pattern.
+  option-descriptions and do not want to enumerate them all in usage-pattern.
 - "``[--]``". Double dash "``--``" is used by convention to separate
   positional arguments that can be mistaken for options. In order to
   support this convention add "``[--]``" to you usage patterns.
@@ -363,10 +363,10 @@ community!
 
 The follosing ports are available:
 
-- [Ruby port](http://github.com/docopt/docopt.rb)
-- [CoffeeScript port](http://github.com/docopt/docopt.coffee)
-- [Lua port](http://github.com/docopt/docopt.lua)
-- [PHP port](http://github.com/docopt/docopt.php)
+- `Ruby port <http://github.com/docopt/docopt.rb>`_
+- `CoffeeScript port <http://github.com/docopt/docopt.coffee>`_
+- `Lua port <http://github.com/docopt/docopt.lua>`_
+- `PHP port <http://github.com/docopt/docopt.php>`_
 
 But you can always create a port for your favorite language!
 You are encouraged to use the Python version as a reference implementation.
