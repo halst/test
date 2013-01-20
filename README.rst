@@ -180,7 +180,7 @@ Usage pattern format
 -------------------------------------------------------------------------------
 
 **Usage pattern** is a substring of ``doc`` that starts with
-``usage:`` (case-*in*sensitive) and ends with a *visibly* empty line.
+``usage:`` (case *insensitive*) and ends with a *visibly* empty line.
 Minimum example:
 
 .. code:: python
