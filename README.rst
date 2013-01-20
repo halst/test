@@ -127,9 +127,7 @@ API
   ``version`` could be any printable object, but most likely a string,
   e.g. ``"2.1.0rc1"``.
 
-.. note::
-
-    When ``docopt`` is set to automatically handle ``-h``, ``--help`` and
+    Note, when ``docopt`` is set to automatically handle ``-h``, ``--help`` and
     ``--version`` options, you still need to mention them in usage pattern for
     this to work. Also, for your users to know about them.
 
