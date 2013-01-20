@@ -343,8 +343,7 @@ you're building the next "git", you will need the new ``any_options``
 parameter (described in API section above). To get you started quickly
 we implemented a subset of git command-line interface as an example:
 
-`docopt/examples/git
-<https://github.com/docopt/docopt/tree/master/examples/git>`_
+`examples/git <examples/git>`_
 
 
 Data validation
