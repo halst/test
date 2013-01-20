@@ -30,6 +30,7 @@ write only the help message--*the way you want it*.
 ``docopt`` helps you create most beautiful command-line interfaces *easily*:
 
 .. code:: python
+
     """Naval Fate.
 
     Usage:
