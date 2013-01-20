@@ -1,4 +1,4 @@
-**docopt** creates *beautiful* command-line interfaces
+``docopt`` creates *beautiful* command-line interfaces
 ===============================================================================
 
     New in version 0.6.0:
@@ -27,7 +27,7 @@ based on the beautiful help message that you write yourself!  This way
 you don't need to write this stupid repeatable parser-code, and instead can
 write only the help message--*the way you want it*.
 
-``docopt`` helps you create most beautiful command-line interfaces *easily*:
+**docopt** helps you create most beautiful command-line interfaces *easily*:
 
 .. code:: python
 
@@ -76,7 +76,7 @@ Use `pip <http://pip-installer.org>`_ or easy_install:
 Alternatively, you can just drop ``docopt.py`` file into your project--it is
 self-contained.
 
-``docopt`` is tested with Python 2.5, 2.6, 2.7, 3.1, 3.2.
+**docopt** is tested with Python 2.5, 2.6, 2.7, 3.1, 3.2.
 
 API
 ===============================================================================
@@ -318,7 +318,7 @@ Examples
 
 We have an extensive list of
 `examples <https://github.com/docopt/docopt/tree/master/examples>`_
-which cover every aspect of functionality of ``docopt``.  Try them out,
+which cover every aspect of functionality of **docopt**.  Try them out,
 read the source if in doubt.
 
 Subparsers, multi-level help and *huge* applications (like git)
@@ -338,7 +338,7 @@ a subset of git command-line interface as an example:
 Data validation
 -------------------------------------------------------------------------------
 
-``docopt`` does one thing and does it well: it implements your command-line
+**docopt** does one thing and does it well: it implements your command-line
 interface.  However it does not validate the input data.  On the other hand
 there are libraries like `python schema <https://github.com/halst/schema>`_
 which make validating data a breeze.  Take a look at
@@ -349,16 +349,16 @@ which uses **schema** to validate data and report an error to the user.
 Development
 ===============================================================================
 
-We would *love* to hear what you think about ``docopt`` on our
+We would *love* to hear what you think about **docopt** on our
 `issues page <http://github.com/docopt/docopt/issues>`_
 
 Make pull requrests, report bugs, suggest ideas and discuss
-``docopt``. You can also drop a line directly to <vladimir@keleshev.com>.
+**docopt**. You can also drop a line directly to <vladimir@keleshev.com>.
 
 Porting ``docopt`` to other languages
 ===============================================================================
 
-We think ``docopt`` is so good, we want to share it beyond the Python
+We think **docopt** is so good, we want to share it beyond the Python
 community!
 
 The follosing ports are available:
@@ -379,7 +379,7 @@ Porting discussion is on `issues page
 Changelog
 ===============================================================================
 
-``docopt`` follows `semantic versioning <http://semver.org>`_.  The first
+**docopt** follows `semantic versioning <http://semver.org>`_.  The first
 release with stable API will be 1.0.0 (soon).  Until then, you are encouraged
 to specify explicitly the version in your dependency tools, e.g.:
 
