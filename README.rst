@@ -69,7 +69,7 @@ help message in the module docstrings.
 Installation
 ===============================================================================
 
-Use `pip <http://pip-installer.org`_ or easy_install:
+Use `pip <http://pip-installer.org>`_ or easy_install:
 
     pip install docopt==0.6.0
 
