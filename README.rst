@@ -82,9 +82,11 @@ API
 ===============================================================================
 
 .. code:: python
+
     from docopt import docopt
 
 .. code:: python
+
     args = docopt(doc, argv=None, help=True, version=None, options_first=False)
 
 ``docopt`` takes 1 required and 4 optional arguments:
@@ -96,6 +98,7 @@ API
   Here is a quick example of such a string:
 
 .. code:: python
+
     """Usage: my_program.py [-hso FILE] [--quiet | --verbose] [INPUT ...]
 
     -h --help    show this
@@ -145,6 +148,7 @@ the top example as:
 the return dictionary will be:
 
 .. code:: python
+
     {'--drifting': False,    'mine': False,
      '--help': False,        'move': True,
      '--moored': False,      'new': False,
@@ -181,6 +185,7 @@ Usage pattern format
 Minimum example:
 
 .. code:: python
+
     """Usage: my_program.py
 
     """
@@ -190,6 +195,7 @@ You can specify your program's name several times to signify several
 exclusive patterns:
 
 .. code:: python
+
     """Usage: my_program.py FILE
               my_program.py COUNT FILE
 
