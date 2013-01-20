@@ -1,4 +1,4 @@
-``docopt`` creates *beautiful* command-line interfaces
+**docopt** creates *beautiful* command-line interfaces
 ===============================================================================
 
     New in version 0.6.0:
