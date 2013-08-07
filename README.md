@@ -1,7 +1,7 @@
 Urlbeat—simple URL shortener web app
 ======================================
 
-Urlbeat provides a single resource called Redirection.
+**Urlbeat** provides a single resource called Redirection.
 
  * Redirection is created by submitting a POST request to
    `/` with `url` parameter.
