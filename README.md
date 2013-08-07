@@ -1,4 +1,4 @@
-Urlbeat - simple URL shortener web app
+Urlbeat—simple URL shortener web app
 ======================================
 
 Urlbeat provides a single resource called Redirection.
