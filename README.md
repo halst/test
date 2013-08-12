@@ -16,7 +16,7 @@ API
 
 ### `PEG::Grammar`
 
-#### Example
+##### Example
 
 ```ruby
 grammar = PEG::Grammar.new('
@@ -30,12 +30,12 @@ grammar = PEG::Grammar.new('
 grammar.parse('(2+3*4)') #=> PEG::Node.new("(2*3+4)", ..., "value")
 ```
 
-#### `PEG::Grammar.new(source) → grammar`
+##### `PEG::Grammar.new(source) → grammar`
 
 Takes a `source` string written in **PEG notation** and
 returns a new `Grammar` object.
 
-#### `grammar.parse(source) → node`
+##### `grammar.parse(source) → node`
 
 Parses `source` string into an abstract syntax tree and
 returns the top `PEG::Node` object of that tree.
