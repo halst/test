@@ -91,7 +91,7 @@ the blocks associated with each rule.
 ### `PEG::Node`
 
 Abstract syntax tree node.  Such nodes are created during
-parsing step.  Creating them manually is not part of the
+a parsing step.  Creating them manually is not part of the
 public API.
 
 ##### Example
