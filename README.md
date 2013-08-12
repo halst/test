@@ -17,7 +17,6 @@ API
 ### `PEG::Grammar`
 
 ##### Example
-
 ```ruby
 grammar = PEG::Grammar.new('
   value  <- number / expr
