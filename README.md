@@ -81,7 +81,7 @@ tree `node` will be passed to it.
 
 Given a block that takes **two** arguments, the block will
 also receive `children`, which are recursively evaluated
-components of the rule.
+branches of the `node`.
 
 ##### `language.eval(source)`
 
