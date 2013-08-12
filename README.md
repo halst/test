@@ -40,6 +40,8 @@ returns a new `Grammar` object.
 Parses `source` string into an abstract syntax tree and
 returns the top `PEG::Node` object of that tree.
 
+---
+
 ### `PEG::Language`
 
 While `PEG::Grammar` captures only the sytax rules,
