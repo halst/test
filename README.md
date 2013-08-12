@@ -17,6 +17,7 @@ API
 ### `PEG::Grammar`
 
 ##### Example
+
 ```ruby
 grammar = PEG::Grammar.new('
   value  <- number / expr
@@ -48,7 +49,7 @@ with an action.
 `PEG::Language` is an abastract class, it is intended to be
 subclassed.
 
-#### Example
+##### Example
 
 ```ruby
 class SimpleMath < PEG::Language
@@ -68,9 +69,9 @@ end
 SimpleMath.new.eval('(2+3*4)') #=> 14
 ```
 
-#### `PEG::Language.rule(source) { |node, children| block }`
-#### `PEG::Language.rule(source) { |node| block }`
-#### `PEG::Language.rule(source)`
+##### `PEG::Language.rule(source) { |node, children| block }`
+##### `PEG::Language.rule(source) { |node| block }`
+##### `PEG::Language.rule(source)`
 
 `PEG::Language.rule` is a class method intended to be put
 inside a class body.  It takes a `source` string which
@@ -84,7 +85,7 @@ Given a block that takes **two** arguments, the block will
 also receive `children`, which are recursively evaluated
 components of the rule.
 
-### `language.eval(source)`
+##### `language.eval(source)`
 
 Parses the `source` string, then visits each node and runs
 the blocks associated with each rule.
@@ -95,7 +96,7 @@ Abstract syntax tree node.  Such nodes are created during
 parsing step.  Creating them manually is not part of the
 public API.
 
-#### Example
+##### Example
 
 ```ruby
 node = grammar.parse('(2+3*4)')
@@ -105,14 +106,14 @@ node.children #=> [PEG:Node(..., 'expr')]
 node.name     #=> 'value'
 ```
 
-#### `node.text`
+##### `node.text`
 
 Text from which that node was parsed.
 
-#### `node.name`
+##### `node.name`
 
 Name of the grammar rule that created that node.
 
-#### `node.children`
+##### `node.children`
 
 Possibly empty list of child branches of that node.
