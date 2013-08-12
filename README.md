@@ -1,5 +1,5 @@
-peg—Parsing Expression Grammar (PEG) implementation
-===================================================
+peg
+===
 
 **peg** is a gem that implements Parsing Expression Grammar
 (PEG) as it is described in Bryan Ford's [original paper](
