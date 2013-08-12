@@ -44,10 +44,8 @@ returns the top `PEG::Node` object of that tree.
 
 While `PEG::Grammar` captures only the sytax rules,
 `PEG::Language` allows you to associate each syntax rule
-with an action.
-
-`PEG::Language` is an abastract class, it is intended to be
-subclassed.
+with an action. `PEG::Language` is an abastract class, it
+is intended to be subclassed.
 
 ##### Example
 
