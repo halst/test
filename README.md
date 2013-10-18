@@ -1,6 +1,12 @@
 PEP 257 docstring style checker
 ===============================================================================
 
+- [ ] a task list item
+- [ ] list syntax required
+- [ ] normal **formatting**, @mentions, #1234 refs
+- [ ] incomplete
+- [x] completed
+
 **pep257** is a static analysis tool for checking compliance with
 Python PEP 257: <http://www.python.org/dev/peps/pep-0257/>.
 
