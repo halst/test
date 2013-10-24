@@ -1,5 +1,12 @@
 PEP 257 docstring style checker
 ===============================================================================
+Character | Desctiption
+----------| -----------------------
+      `?` | foo bar
+
+Character | Desctiption
+---------:| -----------------------
+      `?` | foo bar
 
 - [ ] a task list item
 - [ ] list syntax required
