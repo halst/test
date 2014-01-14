@@ -1,5 +1,23 @@
 PEP 257 docstring style checker
 ===============================================================================
+
+```wordbase
+    +r= +g= +d= +n= +e=
+     e   a   o   l   n
+     p   r   z   e   o
+     a   a   p   o   r
+    -r= -w= -o= -d= -t=
+
+    +[[0, 0], [1, 1], [2, 2], [2, 1], [1, 2]]
+
+    +r= +g= +d= +n= +e=
+     e  +a  +o   l   n
+     p  +r  +z   e   o
+     a   a   p   o   r
+    -r= -w= -o= -d= -t=
+```
+
+
 Character | Desctiption
 ----------| -----------------------
       `?` | foo bar
