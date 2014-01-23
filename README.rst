@@ -81,10 +81,11 @@ Errors
 All **pep257** errors have unique codes. All codes start with a capital D and
 are grouped as follows:
 
++--------------+--------------------------------------------------------------+
 | Code         | Explanation                                                  |
-|--------------|--------------------------------------------------------------|
++--------------+--------------------------------------------------------------+
 | D10{0,1,2,3} | Public {module,class,method,function} missing.               |
-|--------------|--------------------------------------------------------------|
++--------------+--------------------------------------------------------------+
 | D200         | One-line docstrings should fit on one line with quotes.      |
 | D20{1,2}     | No blank lines allowed {before,after} docstring.             |
 | D20{3,4}     | 1 blank required {before,after} class docstring.             |
@@ -92,11 +93,12 @@ are grouped as follows:
 | D206         | Docstring should be indented with spaces, not tabs.          |
 | D20{7,8}     | Docstring {under,over}-indented.                             |
 | D209         | Multi-line docstring should end with 1 blank line.           |
-|--------------|--------------------------------------------------------------|
++--------------+--------------------------------------------------------------+
 | D300         | Use """triple double quotes""".                              |
 | D301         | Use r""" if any backslashes in your docstring.               |
 | D302         | Use u""" for Unicode docstrings (Python 2 only).             |
-|--------------|--------------------------------------------------------------|
++--------------+--------------------------------------------------------------+
 | D400         | First line should end with a period.                         |
 | D401         | First line should be in imperative mood.                     |
 | D402         | First line should not be the function's "signature".         |
++--------------+--------------------------------------------------------------+
